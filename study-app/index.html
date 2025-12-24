@@ -1,0 +1,30 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Study Tracker</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <main>
+    <h1>Study Tracker 📚</h1>
+    <section class="new-session">
+      <input id="topic" placeholder="Topic or task" />
+      <input id="duration" placeholder="Duration (min)" type="number" />
+      <button id="add">Add Session</button>
+    </section>
+
+    <section>
+      <h2>Planned Sessions</h2>
+      <ul id="sessions"></ul>
+    </section>
+
+    <section>
+      <h2>Summary</h2>
+      <div id="summary">No sessions yet</div>
+    </section>
+  </main>
+  <script src="script.js"></script>
+</body>
+</html>

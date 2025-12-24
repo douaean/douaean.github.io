@@ -1,0 +1,5 @@
+body { font-family: Arial, sans-serif; padding: 24px; background:#f7f7f7; color:#111 }
+main { max-width:720px; margin:0 auto; background:white; padding:20px; border-radius:8px; box-shadow:0 2px 8px rgba(0,0,0,0.05) }
+.new-session input { margin-right:8px }
+button { margin-left:8px }
+li { margin:8px 0 }
